@@ -1,62 +1,295 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport"
 				content="width=device-width, initial-scale=1.0">
 	<meta name="description"
-				content="Gulp pack for easy html/php markup development">
+				content="Оконная компания Окна Хаус">
 	<meta name="keywords"
-				content="">
+				content="Надежные окна">
 	<link rel="shortcut icon"
-				href="img/favicons/favicon.svg"
+				href="img/favicons/logo_1x.svg"
 				type="image/svg+xml">
 	<link rel="shortcut icon"
-				href="img/favicons/favicon.webp"
+				href="img/favicons/logo_1x.webp"
 				type="image/webp">
 	<link rel="shortcut icon"
-				href="img/favicons/favicon.png"
+				href="img/favicons/logo_1x.png"
 				type="image/x-icon">
 	<link rel="stylesheet"
 				href="css/libs.min.css">
 	<link rel="stylesheet"
 				href="css/style.min.css">
 	<link rel="preload" href="fonts/roboto.woff2" as="font" crossorigin="anonymous">
-	<title>Easy-webdev-startpack v3.0</title>
+	<title>Окна Хаус</title>
 </head>
 
 
 <body>
 	<header class="header">
-  <body>
-    <header class="header">
+  <div class="header-wrapper main-container">
+    <a href="#">
       <picture>
-        <source media="(max-width: 767px)" srcset="/img/logo_1x.webp 1x, img/logo_1x.webp 2x">
-        <source media="(max-width: 1200px)" srcset="/img/logo_1x_2x.webp 1x, /img/logo_1x_2x.webp 2x">
-        <img class="" src="/img/logo_1x.png" srcset="/img/logo_1x_2x.webp 2x" width="89.5" height="63" alt="Окна в дом">
+        <source media="(max-width: 767px)" srcset="/img/logo_1x.webp  1x,  img/logo_1x.webp 2x">
+        <source media="(max-width: 1200px)" srcset="/img/logo_1x_2  webp  1x, /img/logo_1x_2x.webp 2x">
+        <img class="" src="/img/logo_1x.png" srcset="/img/logo_1x_2x  webp   2x" width="89.5" height="63"
+          alt="Окна в дом">
       </picture>
-      <nav>
+    </a>
+    <nav class="maim__nav">
+      <ul>
+        <li><a class="main-nav__link main-nav__link--active">Услуги</a></li>
+        <li><a class="main-nav__link" href="#">Продукция</a></li>
+        <li><a class="main-nav__link" href="#">О компании</a></li>
+        <li><a class="main-nav__link" href="#">Портфолио</a></li>
+        <li><a class="main-nav__link" href="#">Вопрос-ответ</a></li>
+        <li><a class="main-nav__link" href="#">Контакты</a></li>
+      </ul>
+      <div>
+        <a class="btn btn--application btn--orange" href="#">Заявка на замер</a>
+        <a class="btn btn--order btn--purple" href="#">Заказать расчет</a>
+      </div>
+    </nav>
+  </div>
+</header>
+	<main class="main">
+		<div class="main-wrapper main-container">
+			<section class="main-promo">
+    <span class="main-promo__name title--middle text--orange">Окна Хаус -</span>
+    <h1 class="main-promo__title title--big text--white ">Профессиональный подход к остеклению</h1>
+    <div class="main-promo__wrapper">
+        <div class="main-promo__feauteres">
+            <p class="main-promo__text text--white">
+                Современные окна
+                и балконные конструкции
+                по доступным ценам
+            </p>
+        </div>
+        <div class="main-promo__feauteres">
+            <p class="main-promo__text text--white">
+                Квалифицированный
+                подход к решению задач
+                любой сложности
+            </p>
+        </div>
+        <div class="main-promo__feauteres">
+            <p class="main-promo__text text--white">
+                Гарантия
+                высочайшего качества
+                нашей продукции
+            </p>
+        </div>
+        <form class="calling-home" action="" method="post">
+            <fieldset>
+                <legend>
+                    <h3>Вызов замерщика на дом</h3>
+                </legend>
+                <div class="">
+                    <label class="" for="first-name">Имя</label>
+                    <input class="feedback__input feedback__input--name title--middle" name="first-name" id="first-name"
+                        type="text" placeholder="Представьтесь пожалуйста" required>
+                </div>
+                <div class="">
+                    <label for="tel">Номер телефона</label>
+                    <input type="tel" name="tel" id="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" required>
+                </div>
+                <div class="">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="feedback__place">
+                    <input class="visually-hidden" type="checkbox" name="park" id="park" checked>
+                    <label class="feedback__label feedback__label--place" for="park">Согласен на обработку
+                        персональных данных
+                        в соответствии с <a href="">политикой конфиденциальности</a></label>
+                </div>
+            </fieldset>
+            <div class="feedback__btn">
+                <button class="" type="submit">отправить заявку</button>
+            </div>
+        </form>
+    </div>
+</section>
+			<section class="main-service">
+  <h2 class="title-middle">Наши услуги</h2>
+  <div>
+    <h3 class="title-middle">Установка
+      пластиковых
+      окон</h3>
+    <p class="service-text">Устанавливаем пластиковые окна Rehau
+      от проверенного производителя
+      с
+      гарантией качества</p>
+  </div>
+  <div>
+    <h3 class="title-middle">Остекление балконов
+      и лоджий
+    </h3>
+    <p class="service-text">Занимаемся остеклением и отделкой
+      балконов и лоджий. Теплое и холодное остекление, изготовление выносов и крыш. Беремся за сложные объекты</p>
+  </div>
+  <div>
+    <h3 class="title-middle">Остекление
+      коттеджей и дач</h3>
+    <p class="service-text">Остекление и отделка под ключ:
+      от коттеджей и дач до террас
+      и беседок. Выделяем личного
+      технолога под каждый объект</p>
+  </div>
+  <div>
+    <h3 class="title-middle">Остекление
+      корпоративных объектов
+    </h3>
+    <p class="service-text">Реализуем сложные проекты
+      по остеклению торговых центров,
+      ресторанов, производственных помещений
+      и офисов</p>
+  </div>
+</section>
+			<sectioun class="about-us">
+  
+  <article class="about-us-slider">
+  <h2>О компании</h2>
   <ul>
-    <li><a href="">Услуги</a></li>
-    <li><a href="">Продукция</a></li>
-    <li><a href="">О компании</a></li>
-    <li><a href="">Портфолио</a></li>
-    <li><a href="">Вопрос-ответ</a></li>
-    <li><a href="">Контакты</a></li>
+    <li> <a href="#">Описание</a></li>
+    <li> <a href="#">Как мы работаем</a></li>
+    <li> <a href="#">Отзывы</a></li>
+    <li> <a href="#">Сертификаты</a></li>
   </ul>
   <div>
-    <button>Заявка на замер</button>
-    <button>Заказать расчет</button>
+    <a href="#">
+      <img src="/img/Big_logo.svg" width="198" height="140" alt="Big logo">
+    </a>
+    <p>Мы помогаем клиентам подбирать решения, учитывая пожежелания к характеристикам окна и его стоимости. Окно - это
+      объект, которым Вы будете пользоваться много лет, поэтому для нас очень важно, чтобы Вы сделали правильный выбор
+    </p>
   </div>
-  </nav>
-  </header>
-  
-</header>
-
-	<main class="main"><h1></h1></main>
-	<footer class="footer"></footer>
-
+  <div>
+    <picture>
+      <source media="(max-width: 767px)" srcset="/img/window_man_1x.webp 1x,  /img/window_man_2x.webp 2x">
+      <source media="(max-width: 1200px)" srcset="/img/window_man_1x.webp 1x,/img/window_man_1x.webp 2x">
+      <img class="" src="/img/window_man_1x.webp" srcset="/img/window_man_2x.webp 2x" width="595" height="461"
+        alt="Мастер устанавливает окно">
+    </picture>
+  </div>
+</article>
+  <div class="our-features">
+    <h3>Профессионализм</h3>
+    <p>
+      Бригада профессиональных
+      мастеров по монтажу
+      и обслуживанию
+    </p>
+  </div>
+  <div class="our-features">
+    <h3>Ценообразование</h3>
+    <p>
+      Лучшие цены на рынке
+      пластиковых окон
+    </p>
+  </div>
+  <div class="our-features">
+    <h3>Мобильность</h3>
+    <p>
+      Заключение договора
+      на дому
+    </p>
+  </div>
+  <div class="our-features">
+    <h3>Лояльность</h3>
+    <p>
+      99% клиентов рекомендуют
+      нас своим друзьям
+    </p>
+  </div>
+  <div class="our-features">
+    <h3>Скорость</h3>
+    <p>
+      Короткие сроки
+      установки изделий
+    </p>
+  </div>
+  <div class="our-features">
+    <h3>Служба качества</h3>
+    <p>
+      Безупречное качество
+      и контроль изделий ПВХ
+    </p>
+    <a href="#">Оформить заявку на замер</a>
+  </div>
+</sectioun>
+			<section class="portfolio">
+  <picture>
+    <source media="(max-width: 767px)" srcset="/img/Rectangle_1_1x.webp  1x,  /img/Rectangle_1_2x.webp 2x">
+    <source media="(max-width: 1200px)" srcset="/img/Rectangle_1_1x.webp  1x,  /img/Rectangle_1_2x.webp 2x">
+    <img class="" src="/img/Rectangle_1_1x.webp" srcset="/img/Rectangle_1_1x.webp 2x" width="214" height="214" alt="Примеры работ">
+ </picture>
+ <picture>
+  <source media="(max-width: 767px)" srcset="/img/Rectangle_2_1x.webp  1x,  /img/Rectangle_2_2x.webp 2x">
+  <source media="(max-width: 1200px)" srcset="/img/Rectangle_2_1x.webp  1x,  /img/Rectangle_2_2x.webp 2x">
+  <img class="" src="/img/Rectangle_2_1x.webp" srcset="/img/Rectangle_2_1x.webp 2x" width="214" height="214" alt="Примеры работ">
+<picture>
+  <source media="(max-width: 767px)" srcset="/img/Rectangle_3_1x.webp  1x,  /img/Rectangle_3_2x.webp 2x">
+  <source media="(max-width: 1200px)" srcset="/img/Rectangle_3_1x.webp  1x,  /img/Rectangle_3_2x.webp 2x">
+  <img class="" src="/img/Rectangle_3_1x.webp" srcset="/img/Rectangle_3_1x.webp 2x" width="214" height="214" alt="Примеры работ">
+</picture>
+<picture>
+  <source media="(max-width: 767px)" srcset="/img/Rectangle_4_1x.webp  1x,  /img/Rectangle_4_2x.webp 2x">
+  <source media="(max-width: 1200px)" srcset="/img/Rectangle_4_1x.webp  1x,  /img/Rectangle_4_2x.webp 2x">
+  <img class="" src="/img/Rectangle_4_1x.webp" srcset="/img/Rectangle_4_1x.webp 2x" width="214" height="214" alt="Примеры работ">
+</picture>
+</section>
+			<section class="faq-block">
+  <h3>Вопрос-ответ</h3>
+  <ul>
+    <li>Сколько по времени занимает изготовление пластиковых окон?
+      <ul>
+        <li>Сколько по времени занимает изготовление пластиковых окон?</li>
+      </ul>
+    </li>
+    <li>Какие существуют способы оплаты?
+      <ul>
+        <li>Пы принимаем любую форму оплаты</li>
+      </ul>
+    </li>
+    <li>Где я могу посмотреть образцы?
+      <ul>
+        <li>В любом отделение нашего офиса или при вызове замерщика на дом</li>
+      </ul>
+    </li>
+    <li>Зачем вызывать замерщика? Я могу дать размеры
+      <ul>
+        <li>Нет проблем если вы не боитись сквозняков))</li>
+      </ul>
+    </li>
+    <li>Мне надо нанимать грузчиков для подъема?
+      <ul>
+        <li>Нет, команда мастеров все сами аккуратно доставят и внесут.</li>
+      </ul>
+    </li>
+    <li>Хотелось бы отделать балкон. Поможете?
+      <ul>
+        <li>Конечно сделаем что угодно если это окна</li>
+      </ul>
+    </li>
+  </ul>
+</section>
+		</div>
+	</main>
+	<footer class="footer">
+  <div class="main-container">
+    <div>
+      <a class="" href="#"><img src="/img/Logo_svg.svg" width="54" height="39" alt="mini logo"><span>© ООО “Окна Хаус”,
+          2011 - 2022</span></a>
+    </div>
+    <div>
+      <a href="#">Политика кофиденциальности</a>
+      <a href="#">Пользовательское соглашение</a>
+    </div>
+  </div>
+</footer>
 	<script src="js/libs.min.js"></script>
 <script src="js/main.min.js"></script>
 

@@ -1,0 +1,85 @@
+header {
+  background-color: #ffffff;
+}
+
+.main-nav__link {
+  color: #000000;
+}
+
+.main-nav__link:hover {
+  color: #EF7F04;
+}
+
+.main-nav__link:active {
+  color: #f9d60f;
+}
+
+.main-nav__link:focus {
+  color: #E2E2E2
+}
+
+.main-nav__link--active {
+  color: #EF7F04;
+}
+
+.btn {
+  display: table-cell;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 15px;
+  border: 0;
+}
+
+.btn--orange {
+  background-color: #EF7F04;
+  padding-left: 47px;
+}
+
+.btn--purple {
+  background-color: #3B3A63;
+  padding-left: 47px;
+}
+
+.btn--application {
+  width: 169px;
+  height: 40px;
+  border-radius: 5px;
+  
+}
+
+.btn--application::before {
+  content: "";
+  width: 20px;
+  height: 18px;
+  position: absolute;
+  top: 193px;
+  left: 380px;
+  background-image: url("/img/svg/svg_icon_8.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 18px;
+  background-position: 0 0;
+}
+
+.btn--order {
+  width: 172px;
+  height: 40px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.btn--order::before {
+  content: "";
+  width: 20px;
+  height: 18px;
+  position: absolute;
+  top: 193px;
+  left: 550px;
+  background-image: url("/img/svg/svg_icon_9.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 18px;
+  background-position: 0 0;
+}
+

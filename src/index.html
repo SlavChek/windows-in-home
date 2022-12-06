@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 @@include('components/page-blocks/_head.html',{
-"lang":"en",
-"title":"Easy-webdev-startpack v3.0",
-"description":"Gulp pack for easy html/php markup development",
-"keywords":"",
-"favicon":"img/favicons/favicon",
+"lang":"ru",
+"title":"Окна Хаус",
+"description":"Оконная компания Окна Хаус",
+"keywords":"Надежные окна",
+"favicon":"img/favicons/logo_1x",
 })
 
 <body>
 	@@include('components/page-blocks/_header.html')
-	<main class="main"><h1></h1></main>
+	<main class="main">
+		<div class="main-wrapper main-container">
+			@@include('components/page-blocks/_main-promo.html')
+			@@include('components/page-blocks/_main-service.html')
+			@@include('components/page-blocks/_about-us.html')
+			@@include('components/page-blocks/_portfolio.html')
+			@@include('components/page-blocks/_faq-block.html')
+		</div>
+	</main>
 	@@include('components/page-blocks/_footer.html')
 	@@include('components/page-blocks/_scripts.html')
 </body>
