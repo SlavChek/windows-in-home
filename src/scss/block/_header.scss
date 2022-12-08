@@ -1,0 +1,39 @@
+// стили в header
+header {
+  background-color: #ffffff;
+}
+
+// Стили ссылок main-nav
+
+.main-nav__link {
+  color: #000000;
+}
+
+.main-nav__link:hover {
+  color: #EF7F04;
+}
+
+.main-nav__link:active {
+  color: #d07119;
+}
+
+// Стили ссылок main-nav ^
+// Стили кнопок main-nav
+
+.btn--application {
+  background: url(/img/svg/svg_icon_8.svg) no-repeat 20px 10px;
+  width: 169px;
+  height: 40px;
+  padding-left: 47px;
+}
+
+.btn--order {
+  background: url(/img/svg/svg_icon_9.svg) no-repeat 20px 10px;
+  width: 172px;
+  height: 40px;
+  padding-left: 47px;
+}
+
+
+// Стили кнопок main-nav^
+// стили в header^

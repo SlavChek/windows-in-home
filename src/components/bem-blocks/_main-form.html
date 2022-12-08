@@ -1,0 +1,29 @@
+<form class="form__calling" action="" method="post">
+  <fieldset class="form__calling--group">
+      <legend>
+          <h3 class="form__calling--title">Вызов замерщика на дом</h3>
+      </legend>
+      <div class="form__input--wrapper">
+          <label class="visually-hidden" for="first-name">Имя</label>
+          <input class="form__input form__input--name" name="first-name" id="first-name"
+              type="text" placeholder="Представьтесь пожалуйста" required>
+      </div>
+      <div class="form__input--wrapper">
+          <label class="visually-hidden" for="tel">Номер телефона</label>
+          <input class="form__input form__input--phone" type="tel" name="tel" id="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="номер телефона" required>
+      </div>
+      <div class="form__input--wrapper">
+          <label class="visually-hidden" for="email">Email</label>
+          <input class="form__input form__input--mail" type="email" name="email" id="email" placeholder="E-mail" required>
+      </div>
+      <div class="form__input--wrapper">
+          <input class="checkbox__input visually-hidden" type="checkbox" name="data" id="data" checked>
+          <label class="checkbox__label checkbox__label--data" for="data">Согласен на обработку
+              персональных данных
+              в соответствии с <a class="checkbox__label--link" href="#">политикой конфиденциальности</a></label>
+      </div>
+  </fieldset>
+  <div class=" ">
+      <button class="calling__btn btn btn--orange" type="submit">отправить заявку</button>
+  </div>
+</form>

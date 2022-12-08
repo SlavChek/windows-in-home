@@ -108,7 +108,7 @@ h6 {
 
 .title--big{
   font-style: normal;
-  font-weight: 400;
+  font-weight: 100;
   font-size: 36px;
   line-height: 42px;
 }
@@ -126,4 +126,40 @@ h6 {
 
 .text--white {
   color: #FFFFFF;
+}
+
+.text--purple {
+  color: #2F2F51;
+}
+
+.btn {
+  display: table-cell;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 15px;
+  border: 0;
+  border-radius: 3px;
+}
+
+.btn:active {
+  transform: translate(0, -1px);
+}
+
+.btn--orange {
+  background-color: #EF7F04;
+}
+
+.btn--orange:hover {
+  background-color: #ff7b00;
+}
+
+.btn--purple {
+  background-color: #3B3A63;
+}
+
+.btn--purple:hover {
+  background-color: #474493;
 }

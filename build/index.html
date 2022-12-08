@@ -60,77 +60,68 @@
     <span class="main-promo__name title--middle text--orange">Окна Хаус -</span>
     <h1 class="main-promo__title title--big text--white ">Профессиональный подход к остеклению</h1>
     <div class="main-promo__wrapper">
-        <div class="main-promo__feauteres">
+        <div class="main-promo__features features--one">
             <p class="main-promo__text text--white">
                 Современные окна
                 и балконные конструкции
                 по доступным ценам
             </p>
         </div>
-        <div class="main-promo__feauteres">
+        <div class="main-promo__features features--two">
             <p class="main-promo__text text--white">
                 Квалифицированный
                 подход к решению задач
                 любой сложности
             </p>
         </div>
-        <div class="main-promo__feauteres">
+        <div class="main-promo__features features--three">
             <p class="main-promo__text text--white">
                 Гарантия
                 высочайшего качества
                 нашей продукции
             </p>
         </div>
-        <form class="calling-home" action="" method="post">
-            <fieldset>
-                <legend>
-                    <h3>Вызов замерщика на дом</h3>
-                </legend>
-                <div class="">
-                    <label class="" for="first-name">Имя</label>
-                    <input class="feedback__input feedback__input--name title--middle" name="first-name" id="first-name"
-                        type="text" placeholder="Представьтесь пожалуйста" required>
-                </div>
-                <div class="">
-                    <label for="tel">Номер телефона</label>
-                    <input type="tel" name="tel" id="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" required>
-                </div>
-                <div class="">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" required>
-                </div>
-                <div class="feedback__place">
-                    <input class="visually-hidden" type="checkbox" name="park" id="park" checked>
-                    <label class="feedback__label feedback__label--place" for="park">Согласен на обработку
-                        персональных данных
-                        в соответствии с <a href="">политикой конфиденциальности</a></label>
-                </div>
-            </fieldset>
-            <div class="feedback__btn">
-                <button class="" type="submit">отправить заявку</button>
-            </div>
-        </form>
+        <form class="form__calling" action="" method="post">
+  <fieldset class="form__calling--group">
+      <legend>
+          <h3 class="form__calling--title">Вызов замерщика на дом</h3>
+      </legend>
+      <div class="form__input--wrapper">
+          <label class="visually-hidden" for="first-name">Имя</label>
+          <input class="form__input form__input--name" name="first-name" id="first-name"
+              type="text" placeholder="Представьтесь пожалуйста" required>
+      </div>
+      <div class="form__input--wrapper">
+          <label class="visually-hidden" for="tel">Номер телефона</label>
+          <input class="form__input form__input--phone" type="tel" name="tel" id="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="номер телефона" required>
+      </div>
+      <div class="form__input--wrapper">
+          <label class="visually-hidden" for="email">Email</label>
+          <input class="form__input form__input--mail" type="email" name="email" id="email" placeholder="E-mail" required>
+      </div>
+      <div class="form__input--wrapper">
+          <input class="checkbox__input visually-hidden" type="checkbox" name="data" id="data" checked>
+          <label class="checkbox__label checkbox__label--data" for="data">Согласен на обработку
+              персональных данных
+              в соответствии с <a class="checkbox__label--link" href="#">политикой конфиденциальности</a></label>
+      </div>
+  </fieldset>
+  <div class=" ">
+      <button class="calling__btn btn btn--orange" type="submit">отправить заявку</button>
+  </div>
+</form>
     </div>
 </section>
-			<section class="main-service">
-  <h2 class="title-middle">Наши услуги</h2>
-  <div>
-    <h3 class="title-middle">Установка
-      пластиковых
+			<section class="main-service text--purple">
+  <h2 class="main__service--title title-middle">Наши услуги</h2>
+  <div class="service__block">
+    <h3 class="title-middle">Установкапластиковых
       окон</h3>
     <p class="service-text">Устанавливаем пластиковые окна Rehau
-      от проверенного производителя
-      с
+      от проверенного производителяс
       гарантией качества</p>
   </div>
-  <div>
-    <h3 class="title-middle">Остекление балконов
-      и лоджий
-    </h3>
-    <p class="service-text">Занимаемся остеклением и отделкой
-      балконов и лоджий. Теплое и холодное остекление, изготовление выносов и крыш. Беремся за сложные объекты</p>
-  </div>
-  <div>
+  <div class="service__block">
     <h3 class="title-middle">Остекление
       коттеджей и дач</h3>
     <p class="service-text">Остекление и отделка под ключ:
@@ -138,7 +129,14 @@
       и беседок. Выделяем личного
       технолога под каждый объект</p>
   </div>
-  <div>
+  <div class="service__block">
+    <h3 class="title-middle">Остекление балконов
+      и лоджий
+    </h3>
+    <p class="service-text">Занимаемся остеклением и отделкой
+      балконов и лоджий. Теплое и холодное остекление, изготовление выносов и крыш. Беремся за сложные объекты</p>
+  </div>
+  <div class="service__block">
     <h3 class="title-middle">Остекление
       корпоративных объектов
     </h3>
@@ -149,7 +147,6 @@
   </div>
 </section>
 			<sectioun class="about-us">
-  
   <article class="about-us-slider">
   <h2>О компании</h2>
   <ul>
@@ -180,7 +177,7 @@
     <p>
       Бригада профессиональных
       мастеров по монтажу
-      и обслуживанию
+      и обслуживани.
     </p>
   </div>
   <div class="our-features">
