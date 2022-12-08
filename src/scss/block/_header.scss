@@ -2,8 +2,26 @@
 header {
   background-color: #ffffff;
 }
+.header-wrapper{
+  display: flex;
+}
 
 // Стили ссылок main-nav
+
+.maim-nav {
+  display: flex;
+  flex-wrap:nowrap;
+  align-items: center;
+}
+
+.main-nav__list {
+  display: flex;
+  min-width: 700px;
+}
+
+.main-nav__item {
+  padding-right: 20px;
+}
 
 .main-nav__link {
   color: #000000;
@@ -17,20 +35,26 @@ header {
   color: #d07119;
 }
 
+.main-nav__bottom {
+  display: flex;
+}
+
 // Стили ссылок main-nav ^
-// Стили кнопок main-nav
 
 .btn--application {
   background: url(/img/svg/svg_icon_8.svg) no-repeat 20px 10px;
   width: 169px;
   height: 40px;
-  padding-left: 47px;
+  margin-right: 14px;
+  padding: 12px 19px 13px 47px;
+  
 }
 
 .btn--order {
   background: url(/img/svg/svg_icon_9.svg) no-repeat 20px 10px;
   width: 172px;
   height: 40px;
+  padding: 12px 23px 13px 47px;
   padding-left: 47px;
 }
 
