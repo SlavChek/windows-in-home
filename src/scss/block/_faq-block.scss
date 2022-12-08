@@ -1,0 +1,15 @@
+.faq-block {
+  background: #EF7F1A;
+}
+
+.faq-list{
+  background: #FFFFFF;
+}
+
+.faq-list_item-popup {
+  display: none;
+}
+
+.faq-list:active .faq-list_item-popup {
+  display: block;
+}

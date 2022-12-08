@@ -1,0 +1,42 @@
+.our-features {
+  width: 400px;
+}
+
+.our-feauters__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.our-features:nth-of-type(1) {
+  background: url(/img/svg/svg_icon_professional.svg) no-repeat 0 0;
+}
+
+.our-features:nth-of-type(2) {
+  background: url(/img/svg/svg_icon_5.svg) no-repeat 0 0;
+}
+
+.our-features:nth-of-type(3) {
+  background: url(/img/svg/svg_icon_quality_service.svg) no-repeat 0 0;
+}
+
+.our-features:nth-of-type(4) {
+  background: url(/img/svg/svg_icon_loyalty.svg) no-repeat 0 0;
+}
+
+.our-features:nth-of-type(5) {
+  background: url(/img/svg/svg_icon_speed.svg) no-repeat 0 0;
+}
+
+.our-features:nth-of-type(6) {
+  background: url(/img/svg/svg_icon_quality_service.svg) no-repeat 0 0;
+}
+
+.bth_arrange {
+  width: 312px;
+  height: 55px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  background: url(/img/svg/svg_icon_8.svg) no-repeat 20px 10px;
+}
