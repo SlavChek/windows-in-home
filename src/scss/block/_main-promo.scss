@@ -1,18 +1,83 @@
 // Стили формы в main-promo
 
 .main-promo {
-  background: #3B3A63 url(/img/bg_1.webp) no-repeat 0 0;
+  background:
+    #3B3A63 url(/img/bg_1.webp) no-repeat 0 0,
+    #3B3A63 url(/img/bg_2.webp) no-repeat 1218px 0;
   background-blend-mode: multiply;
 }
 
-.features--one {
-  background: url(/img/svg/svg_icon_5.svg) no-repeat 0 0;
+.main-wrapper {
+  position: relative;
 }
 
-.features--two {
-  background: url(/img/svg/svg_icon_6.svg) no-repeat 0 0;
+.main-slogan__wrapper {
+  width: 450px;
+  margin-left: 85px;
+  padding-top: 129.5px;
+
 }
 
-.features--three {
-  background: url(/img/svg/svg_icon_7.svg) no-repeat 0 0;
+.main-promo__wrapper {
+  display: flex;
+  gap: 25px;
+  max-width: 700px;
+  padding: 130px 0px 132px 85px;
+}
+
+.main-promo__features {}
+
+.main-promo__features::before {
+  content: "";
+  width: 92px;
+  height: 82px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.main-promo__features:nth-child(1):before {
+  top: 274px;
+  left: 70px;
+  background-image: url("/img/svg/svg_icon_5.svg");
+  background-size: 93px 79px;
+}
+
+.main-promo__features:nth-child(2):before {
+  top: 268px;
+  left: 291px;
+  background-image: url("/img/svg/svg_icon_6.svg");
+  background-size: 69px 79px;
+}
+
+.main-promo__features:nth-child(3):before {
+  top: 268px;
+  left: 502px;
+  background-image: url("/img/svg/svg_icon_7.svg");
+  background-size: 73px 83px;
+}
+
+
+
+.main-promo__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  height: 58px;
+}
+
+.main-promo__features:nth-of-type(1) .main-promo__text {
+  width: 186px;
+  padding-right: 0px;
+}
+
+.main-promo__features:nth-of-type(2) .main-promo__text {
+  width: 165px;
+  padding-right: 0;
+}
+
+.main-promo__features:nth-of-type(3) .main-promo__text {
+  width: 165px;
+  padding-right: 0;
 }

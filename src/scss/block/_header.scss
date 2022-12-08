@@ -2,7 +2,8 @@
 header {
   background-color: #ffffff;
 }
-.header-wrapper{
+
+.header-wrapper {
   display: flex;
 }
 
@@ -10,17 +11,21 @@ header {
 
 .maim-nav {
   display: flex;
-  flex-wrap:nowrap;
+  flex-wrap: nowrap;
   align-items: center;
+  margin: 12px 0px 30px 0px;
+  
 }
 
 .main-nav__list {
   display: flex;
   min-width: 700px;
+  margin: 0px 15px 0px 45px;
+  padding: 0;
 }
 
 .main-nav__item {
-  padding-right: 20px;
+  padding-right: 35px;
 }
 
 .main-nav__link {
@@ -35,23 +40,17 @@ header {
   color: #d07119;
 }
 
-.main-nav__bottom {
-  display: flex;
-}
-
-// Стили ссылок main-nav ^
-
 .btn--application {
-  background: url(/img/svg/svg_icon_8.svg) no-repeat 20px 10px;
+  background: url(/img/svg/svg_icon_8.svg) no-repeat 11px 8px;
   width: 169px;
   height: 40px;
   margin-right: 14px;
   padding: 12px 19px 13px 47px;
-  
+
 }
 
 .btn--order {
-  background: url(/img/svg/svg_icon_9.svg) no-repeat 20px 10px;
+  background: url(/img/svg/svg_icon_9.svg) no-repeat 11px 8px;
   width: 172px;
   height: 40px;
   padding: 12px 23px 13px 47px;
