@@ -1,3 +1,17 @@
+
+.about-us__title {
+  margin: 67px 0px 40px 531px;
+}
+
+.about-us__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-left: 265;
+  padding: 0;
+}
+
 .about-us__link {
   font-style: normal;
   font-weight: 400;
@@ -11,15 +25,15 @@
 }
 
 .about-us__link:focus {
-  display: table-cell;
-  padding: 26px 12px;
+  display: block;
+  padding: 10px 26px 10px 26px;
   color: #ffffff;
   text-align: center;
-  vertical-align: middle;
   font-weight: bold;
   background-color: #EF7F04;
   border: 0;
   border-radius: 3px;
+  outline:0;
 }
 
 .about-us__block {
