@@ -5,11 +5,11 @@
 
 .about-us__list {
   display: flex;
-  justify-content: center;
+  justify-content:flex-start;
   align-items: center;
-  gap: 60px;
-  margin-left: 265;
-  padding: 0;
+  gap: 10px;
+  margin-left: 250px;
+  padding: 0;  
 }
 
 .about-us__link {
@@ -24,7 +24,9 @@
   color: #2F2F51;
 }
 
-.about-us__link:focus {
+.about-us__link:focus,
+.about-us__link:active {
+  margin-top: 0;
   display: block;
   padding: 10px 26px 10px 26px;
   color: #ffffff;
@@ -35,8 +37,26 @@
   border-radius: 3px;
   outline:0;
 }
-
+.about-us__block-wrapper {
+  display: grid;
+  grid-template-columns: 605px 596px;
+  margin-top: 35px;
+}
 .about-us__block {
   width: 600px;
+}
+
+.about-us__block:nth-child(1) {
+  display: grid;
+  grid-template-columns: 248px 357px ;
+}
+
+.about-us__link {
+  margin: 45px 0px 0px 50px;
+}
+
+.about-us__text {
+  margin: 248px 56px 0px 0px;
+  line-height: 22px;
 }
 
