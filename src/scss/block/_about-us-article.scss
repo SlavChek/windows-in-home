@@ -13,6 +13,7 @@
 }
 
 .about-us__link {
+  margin: 45px 0px 0px 50px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -49,10 +50,6 @@
 .about-us__block:nth-child(1) {
   display: grid;
   grid-template-columns: 248px 357px ;
-}
-
-.about-us__link {
-  margin: 45px 0px 0px 50px;
 }
 
 .about-us__text {
