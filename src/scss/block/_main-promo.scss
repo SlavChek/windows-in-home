@@ -18,12 +18,21 @@
 
 }
 
+// .main-promo__wrapper {
+//   display: flex;
+//   gap: 25px;
+//   max-width: 700px;
+//   padding: 130px 0px 132px 85px;
+// }
+
 .main-promo__wrapper {
-  display: flex;
-  gap: 25px;
-  max-width: 700px;
-  padding: 130px 0px 132px 85px;
+  display: grid;
+  grid-template-columns: 217px 217px 217px;
+  grid-template-rows: 156px;
+  margin: 131px 0px 0px 84px;
+  padding-bottom: 33px;
 }
+
 
 .main-promo__features::before {
   content: "";
