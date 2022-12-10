@@ -10,13 +10,6 @@
   width: 400px;
 }
 
-.our-feauters__text {
-  margin-top: 11px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 26px;
-}
-
 .our-features:nth-of-type(1) {
   padding: 8px 0px 0px 151px;
   background: url(/img/svg/svg_icon_professional.svg) no-repeat 41px 11px;
@@ -47,7 +40,14 @@
   background: url(/img/svg/svg_icon_quality_service.svg) no-repeat 11px 49px;
 }
 
- .bth_arrange {
+.our-feauters__text {
+  margin-top: 11px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.bth_arrange {
   display: block;
   width: 312px;
   height: 55px;
@@ -61,7 +61,7 @@
   background: url(/img/svg/svg_icon_8.svg) no-repeat 28px 18px;
   border: 0;
   border-radius: 3px;
-  outline:0;
+  outline: 0;
 }
 
 .bth_arrange:active {
