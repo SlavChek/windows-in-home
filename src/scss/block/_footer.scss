@@ -1,5 +1,5 @@
 footer {
-  padding: 51px 0px 28px 0px;
+  padding: 51px 0px 49px 0px;
   background-color: #2F2F51;
   color: #FFFFFF;
   line-height: 20px;
@@ -17,13 +17,14 @@ footer {
   align-items: center;
   gap: 22px;
 }
-.info__block{
-width: auto;  
-display: flex;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 36px;
+
+.info__block {
+  width: auto;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 36px;
 }
 
 .info__block--link:nth-child(1) {
