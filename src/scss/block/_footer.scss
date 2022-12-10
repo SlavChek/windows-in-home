@@ -1,5 +1,35 @@
 footer {
+  padding: 51px 0px 28px 0px;
   background-color: #2F2F51;
   color: #FFFFFF;
   line-height: 20px;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 380px;
+}
+
+.branded__block {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.info__block{
+width: auto;  
+display: flex;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 36px;
+}
+
+.info__block--link:nth-child(1) {
+  margin-left: 74px;
+}
+
+.info__block--link:nth-child(2) {
+  margin-left: 29px;
 }
