@@ -19,6 +19,7 @@ header {
 
 .main-nav__list {
   display: flex;
+  flex-wrap: wrap;
   min-width: 700px;
   margin: 0px 15px 0px 45px;
   padding: 0;

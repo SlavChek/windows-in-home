@@ -42,7 +42,6 @@
 }
 
 .faq-list__inner:hover:before {
-  fill:#EF7F1A;
   background: url(/img/svg/svg_icon_19.svg) no-repeat 0 0;
 }
 
@@ -53,11 +52,12 @@
   transform: rotate(180deg);
 }
 
+.faq-list .faq-list__inner:focus::before {
+  background: url(/img/svg/svg_icon_19.svg) no-repeat 0 0;
+}
+
 .faq-list[open] .faq-list__inner:focus::before {
-  transition: transform 0.5s ease;
-  transform: rotate(0deg);
-  transform-origin: 50% 50%;
-  transform: rotate(180deg);
+  background: url(/img/svg/svg_icon_19.svg) no-repeat 0 0;
 }
 
 .faq-list__inner:hover,
