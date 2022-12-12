@@ -27,6 +27,20 @@ footer {
   line-height: 36px;
 }
 
+.info__block--link {
+  outline: 0;
+}
+
+.info__block--link:hover,
+.info__block--link:focus {
+  color: #EF7F04;
+}
+
+.info__block--link:active {
+  color: #d07119;
+  
+}
+
 .info__block--link:nth-child(1) {
   margin-left: 74px;
 }

@@ -15,9 +15,13 @@
   border-radius: 3px;
 }
 
-.service__block:hover,
-.service__block:focus,
-.service__block:active {
+.servise__block-link {
+  outline: 0;
+}
+
+.servise__block-link:hover,
+.servise__block-link:focus,
+.servise__block-link:active {
   width: 595px;
   height: 268px;
   border-radius: 3px;
@@ -27,7 +31,6 @@
 .service__block:active {
   transform: translate(0, -1px);
 }
-
 
 .servise__block-link:nth-of-type(1) .service__block {
   padding: 66px 239px 32px 52px;

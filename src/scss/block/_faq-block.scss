@@ -9,38 +9,6 @@
   margin: 0px 0px 48px 421px;
 }
 
-// .faq-list {
-//   padding: 0;
-//   font-style: normal;
-//   font-weight: 700;
-//   font-size: 18px;
-//   line-height: 21px;
-
-// }
-
-// .faq-list_item {
-//   background: #FFFFFF;
-//   border-radius: 7px;
-//   padding: 34px 0px 27px 18px;
-//   margin-bottom: 16px;
-// }
-
-// .faq-list_item:hover,
-// .faq-list__item:focus,
-// .faq-list__item:active {
-//   color: #EF7F04;
-// }
-
-// .faq-list_item-popup {
-//   padding: 17px 0px 0px 0px;
-//   font-weight: 400;
-//   font-size: 16px;
-//   line-height: 19px;
-//   color: #000000;
-// }
-
-
-
 .faq-list {
   outline-style: none;
   background: #FFFFFF;
@@ -54,17 +22,55 @@
 }
 
 .faq-list__inner {
+  position: relative;
   padding: auto;
   list-style: none;
+  outline: 0;
+}
+
+.faq-list__inner::before {
+  content: "";
+  width: 30px;
+  height: 16px;
+  top: -2px;
+  left: 920px;
+  background: url(/img/svg/svg_icon_16.svg) no-repeat 0 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  transition: transform 0.5s ease;
+  transform: rotate(0deg);
+}
+
+.faq-list__inner:hover:before {
+  fill:#EF7F1A;
+  background: url(/img/svg/svg_icon_19.svg) no-repeat 0 0;
+}
+
+.faq-list[open] .faq-list__inner:before {
+  transition: transform 0.5s ease;
+  transform: rotate(0deg);
+  transform-origin: 50% 50%;
+  transform: rotate(180deg);
+}
+
+.faq-list[open] .faq-list__inner:focus::before {
+  transition: transform 0.5s ease;
+  transform: rotate(0deg);
+  transform-origin: 50% 50%;
+  transform: rotate(180deg);
 }
 
 .faq-list__inner:hover,
-.faq-list__inner:active {
+.faq-list__inner:focus {
   color: #EF7F04;
 }
 
+.faq-list__inner:active {
+  color: #d07119;
+}
+
 .faq-list--text {
- font-style: normal;
+  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;

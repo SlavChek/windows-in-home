@@ -30,6 +30,7 @@ header {
 
 .main-nav__link {
   color: #000000;
+  outline: 0;
 }
 
 .main-nav__link:hover {
@@ -38,6 +39,12 @@ header {
 
 .main-nav__link:active {
   color: #d07119;
+  
+}
+
+.main-nav__link:focus {
+  border-top: 4px solid #EF7F04;
+  padding-top: 17px;
 }
 
 .btn--application {
