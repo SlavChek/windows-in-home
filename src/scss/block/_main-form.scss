@@ -58,6 +58,10 @@
   outline:0;
 }
 
+.form__input::placeholder {
+  color:#424268;
+}
+
 .form__input:hover{
   opacity: 1;
 }
