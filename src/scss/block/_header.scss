@@ -5,6 +5,7 @@ header {
 
 .header-wrapper {
   display: flex;
+  padding-top: 18px;
 }
 
 // Стили ссылок main-nav
@@ -14,7 +15,7 @@ header {
   flex-wrap: nowrap;
   align-items: center;
   margin: 12px 0px 30px 0px;
-  
+
 }
 
 .main-nav__list {
@@ -40,12 +41,18 @@ header {
 
 .main-nav__link:active {
   color: #d07119;
-  
 }
+
+.main-nav__link--active {
+  border-top: 4px solid #EF7F04;
+  padding-top: 36px;
+}
+
 
 .main-nav__link:focus {
   border-top: 4px solid #EF7F04;
   padding-top: 17px;
+  color: #EF7F04;
 }
 
 .btn--application {

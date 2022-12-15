@@ -64,6 +64,14 @@
     url(/img/bg_6.png) no-repeat 0 0;
 }
 
+.servise__block-link:nth-of-type(2) .service-text {
+  padding-right: 22px;
+}
+
+.servise__block-link:nth-of-type(4) .service-text {
+  padding-right: 54px;
+}
+
 .servise__block-link:nth-of-type(1) .service__block .service-title__inner {
   margin: 0px 0px 37px 86px;
 }
