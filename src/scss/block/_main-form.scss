@@ -55,22 +55,22 @@
   border: 0;
   border-radius: 0.15625vw;
   opacity: 0.8;
-  outline:0;
+  outline: 0;
 }
 
 .form__input::placeholder {
-  color:#424268;
+  color: #424268;
 }
 
-.form__input:hover{
+.form__input:hover {
   opacity: 1;
 }
 
-.form__input:focus{
+.form__input:focus {
   box-shadow: 0vw 0vw 0.520833333333333vw #E2E2E2;
 }
 
-.form__input:last-child{
+.form__input:last-child {
   margin-bottom: 0.729166666666667vw;
 }
 
@@ -79,7 +79,7 @@
   line-height: 0.729166666666667vw;
 }
 
-.checkbox__input:not(:checked) + label::before {
+.checkbox__input:not(:checked)+label::before {
   content: "";
   position: absolute;
   top: 8.802083333333334vw;
@@ -93,7 +93,7 @@
   opacity: 0.3;
 }
 
-.checkbox__input:checked + label::after {
+.checkbox__input:checked+label::after {
   content: "";
   position: absolute;
   top: 8.802083333333334vw;
@@ -107,22 +107,22 @@
   opacity: 0.3;
 }
 
-.checkbox__input:checked:hover + label::after,
-.checkbox__input:checked:hover + label::before {
+.checkbox__input:checked:hover+label::after,
+.checkbox__input:checked:hover+label::before {
   opacity: 1;
 }
 
-.checkbox__input:hover + label::after,
-.checkbox__input:hover + label::before {
+.checkbox__input:hover+label::after,
+.checkbox__input:hover+label::before {
   opacity: 1;
 }
 
-.checkbox__input:focus + label::after,
-.checkbox__input:focus + label::before {
+.checkbox__input:focus+label::after,
+.checkbox__input:focus+label::before {
   opacity: 1;
 }
 
-.form__input--wrapper:last-child{
+.form__input--wrapper:last-child {
   margin: 0vw 0vw 0.885416666666667vw 3.90625vw;
 }
 
@@ -134,7 +134,7 @@
   color: #ff7b00;
 }
 
-.calling__btn{
+.calling__btn {
   margin: 0vw 5.416666666666667vw 3.463541666666667vw 5.364583333333333vw;
   padding: 0.989583333333333vw 2.34375vw;
 }

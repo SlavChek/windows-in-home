@@ -2,8 +2,8 @@
 
 .main-promo {
   background:
-    #3B3A63 url(/img/bg_1.webp) no-repeat 0 0;
-    // #3B3A63 url(/img/bg_2.webp) no-repeat 63.4375vw 0;
+    #3B3A63 url(/img/bg_1.webp) no-repeat 0 0,
+    #3B3A63 url(/img/bg_2.webp) no-repeat 63.4375vw 0;
   background-blend-mode: multiply;
   background-size: contain;
 }
