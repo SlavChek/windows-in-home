@@ -1,21 +1,21 @@
 footer {
-  padding: 51px 0px 49px 0px;
+  padding: 2.65625vw 0vw 2.552083333333333vw 0vw;
   background-color: #2F2F51;
   color: #FFFFFF;
-  line-height: 20px;
+  line-height: 1.041666666666667vw;
 }
 
 .footer__wrapper {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 380px;
+  gap: 17.991666666666668vw;
 }
 
 .branded__block {
   display: flex;
   align-items: center;
-  gap: 22px;
+  gap: 1.145833333333333vw;
 }
 
 .info__block {
@@ -23,8 +23,8 @@ footer {
   display: flex;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 36px;
+  font-size: 0.729166666666667vw;
+  line-height: 1.875vw;
 }
 
 .info__block--link {
@@ -42,9 +42,9 @@ footer {
 }
 
 .info__block--link:nth-child(1) {
-  margin-left: 74px;
+  margin-left: 3.854166666666667vw;
 }
 
 .info__block--link:nth-child(2) {
-  margin-left: 29px;
+  margin-left: 1.510416666666667vw;
 }

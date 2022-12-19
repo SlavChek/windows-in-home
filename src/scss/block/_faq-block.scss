@@ -1,23 +1,23 @@
 .faq-block {
-  padding: 41px 101px 49px 101px;
-  margin-bottom: 80px;
+  padding: 2.135416666666667vw 5.260416666666667vw 2.552083333333333vw 5.260416666666667vw;
+  margin-bottom: 4.166666666666667vw;
   background: #EF7F1A;
-  border-radius: 7px;
+  border-radius: 0.364583333333333vw;
 }
 
 .faq-block__title {
-  margin: 0px 0px 48px 421px;
+  margin: 0vw 0vw 2.5vw 21.927083333333332vw;
 }
 
 .faq-list {
   outline-style: none;
   background: #FFFFFF;
-  border-radius: 7px;
-  padding: 36px 0px 27px 18px;
-  margin-bottom: 12px;
+  border-radius: 0.364583333333333vw;
+  padding: 1.875vw 0vw 1.40625vw 0.9375vw;
+  margin-bottom: 0.625vw;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 0.833333333333333vw;
+  line-height: 0.9375vw;
   color: #000000;
 }
 
@@ -30,11 +30,12 @@
 
 .faq-list__inner::before {
   content: "";
-  width: 30px;
-  height: 16px;
-  top: -2px;
-  left: 920px;
+  width: 1.5625vw;
+  height: 0.833333333333333vw;
+  top: -0.104166666666667vw;
+  left: 47.916666666666664vw;
   background: url(/img/svg/svg_icon_16.svg) no-repeat 0 0;
+  background-size: 1.458333333333333vw 0.729166666666667vw;
   position: absolute;
   background-repeat: no-repeat;
   transition: transform 0.5s ease;
@@ -43,6 +44,7 @@
 
 .faq-list__inner:hover:before {
   background: url(/img/svg/svg_icon_19.svg) no-repeat 0 0;
+  background-size: 1.458333333333333vw 0.729166666666667vw;
 }
 
 .faq-list[open] .faq-list__inner:before {
@@ -54,10 +56,12 @@
 
 .faq-list .faq-list__inner:focus::before {
   background: url(/img/svg/svg_icon_19.svg) no-repeat 0 0;
+  background-size: 1.458333333333333vw 0.729166666666667vw;
 }
 
 .faq-list[open] .faq-list__inner:focus::before {
   background: url(/img/svg/svg_icon_19.svg) no-repeat 0 0;
+  background-size: 1.458333333333333vw 0.729166666666667vw;
 }
 
 .faq-list__inner:hover,
@@ -72,10 +76,10 @@
 .faq-list--text {
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 0.9375vw;
+  line-height: 1.09375vw;
 }
 
 .faq-text {
-  padding-top: 28px;
+  padding-top: 1.458333333333333vw;
 }

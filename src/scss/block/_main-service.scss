@@ -1,89 +1,124 @@
 .main__service--title {
-  margin: 71px 0px 53px 528px;
+  margin: 3.697916666666667vw 0vw 2.760416666666667vw 27.5vw;
 }
 
 .service__block--wrapper {
   display: grid;
-  grid-template-columns: 595px 595px;
-  grid-template-rows: 268px 268px;
-  gap: 10px;
+  grid-template-columns: 30.989583333333332vw 30.989583333333332vw;
+  grid-template-rows: 13.958333333333334vw 13.958333333333334vw;
+  gap: 0.520833333333333vw;
 }
 
 .service__block {
-  width: 595px;
-  height: 268px;
-  border-radius: 3px;
+  width: 30.989583333333332vw;
+  height: 13.958333333333334vw;
+  border-radius: 0.15625vw;
 }
 
 .servise__block-link {
+  position: relative;
   outline: 0;
+}
+
+.servise__block-link::before {
+  content: "";
+  width: 9vw;
+  height: 9vw;
 }
 
 .servise__block-link:hover,
 .servise__block-link:focus,
 .servise__block-link:active {
-  width: 595px;
-  height: 268px;
-  border-radius: 3px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  width: 30.989583333333332vw;
+  height: 13.958333333333334vw;
+  border-radius: 0.15625vw;
+  filter: drop-shadow(0vw 0.208333333333333vw 0.208333333333333vw rgba(0, 0, 0, 0.25));
 }
 
 .service__block:active {
-  transform: translate(0, -1px);
+  transform: translate(0, -0.052083333333333vw);
 }
 
 .servise__block-link:nth-of-type(1) .service__block {
-  padding: 66px 239px 32px 52px;
+  padding: 3.4375vw 12.447916666666666vw 1.666666666666667vw 2.708333333333333vw;
   background:
-    url(/img/svg/svg_icon_1.svg) no-repeat 49px 56px,
     linear-gradient(90.45deg, #FFFFFF 47.56%, rgba(255, 255, 255, 0) 98.81%),
     url(/img/bg_3.webp) no-repeat 0 0;
+  background-size: contain;
 }
 
 .servise__block-link:nth-of-type(2) .service__block {
-  padding: 63px 192px 33px 52px;
+  padding: 3.28125vw 10vw 1.71875vw 2.708333333333333vw;
   background:
-    url(/img/svg/svg_icon_2.svg) no-repeat 51px 48px,
     linear-gradient(90.45deg, #FFFFFF 47.56%, rgba(255, 255, 255, 0) 98.81%),
     url(/img/bg_4.png) no-repeat 0 0;
+  background-size: contain;
 }
 
 .servise__block-link:nth-of-type(3) .service__block {
-  padding: 57px 239px 33px 58px;
+  padding: 2.96875vw 12.447916666666666vw 1.71875vw 3.020833333333333vw;
   background:
-    url(/img/svg/svg_icon_3.svg) no-repeat 46px 48px,
     linear-gradient(90.45deg, #FFFFFF 47.56%, rgba(255, 255, 255, 0) 98.81%),
     url(/img/bg_5.webp) no-repeat 0 0;
+  background-size: contain;
 }
 
 .servise__block-link:nth-of-type(4) .service__block {
-  padding: 60px 150px 31px 51px;
+  padding: 3.125vw 7.8125vw 1.614583333333333vw 2.65625vw;
   background:
-    url(/img/svg/svg_icon_4.svg) no-repeat 52px 46px,
     linear-gradient(90.45deg, #FFFFFF 47.56%, rgba(255, 255, 255, 0) 98.81%),
     url(/img/bg_6.png) no-repeat 0 0;
+  background-size: contain;
+}
+
+.servise__block-link:nth-of-type(1)::before {
+  position: absolute;
+  top: 3.270833vw;
+  left: 0.645833333333333vw;
+  background: url(/img/svg/svg_icon_1.svg) 1.752083vw -0.083333vw/3.4895833333vw 3.75vw no-repeat;
+}
+
+.servise__block-link:nth-of-type(2)::before {
+  position: absolute;
+  top: 2.570833vw;
+  left: 0.6458333333vw;
+  background: url(/img/svg/svg_icon_2.svg) 1.752083vw -0.083333vw/3.541666666666667vw 4.010416666666667vw no-repeat;
+}
+
+.servise__block-link:nth-of-type(3)::before {
+  position: absolute;
+  top: 2.470833vw;
+  left: 0.7458333333vw;
+  background: url(/img/svg/svg_icon_3.svg) 1.752083vw -0.083333vw/3.541666666666667vw 4.010416666666667vw no-repeat;
+}
+
+.servise__block-link:nth-of-type(4)::before {
+  position: absolute;
+  top: 2.470833vw;
+  left: 0.8458333333vw;
+  background: url(/img/svg/svg_icon_4.svg) 1.752083vw -0.083333vw/3.541666666666667vw 4.010416666666667vw no-repeat;
 }
 
 .servise__block-link:nth-of-type(2) .service-text {
-  padding-right: 22px;
+  padding-right: 1.145833333333333vw;
 }
 
 .servise__block-link:nth-of-type(4) .service-text {
-  padding-right: 54px;
+  padding-right: 2.8125vw;
 }
 
 .servise__block-link:nth-of-type(1) .service__block .service-title__inner {
-  margin: 0px 0px 37px 86px;
+  margin: 0vw 0vw 1.927083333333333vw 4.479166666666667vw;
 }
 
 .servise__block-link:nth-of-type(2) .service__block .service-title__inner {
-  margin: 0px 0px 29px 96px;
+  margin: 0vw 0vw 1.510416666666667vw 5vw;
 }
 
 .servise__block-link:nth-of-type(3) .service__block .service-title__inner {
-  margin: 0px 0px 38px 86px;
+  margin: 0vw 0vw 1.979166666666667vw 4.479166666666667vw;
 }
 
 .servise__block-link:nth-of-type(4) .service__block .service-title__inner {
-  margin: 0px 0px 33px 92px;
+  margin: 0vw 0vw 1.71875vw 4.791666666666667vw;
 }

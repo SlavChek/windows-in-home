@@ -5,7 +5,7 @@ header {
 
 .header-wrapper {
   display: flex;
-  padding-top: 18px;
+  padding-top: 0.9375vw;
 }
 
 // Стили ссылок main-nav
@@ -14,20 +14,20 @@ header {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  margin: 12px 0px 30px 0px;
+  margin: 0.625vw 0vw 1.5625vw 0vw;
 
 }
 
 .main-nav__list {
   display: flex;
   flex-wrap: wrap;
-  min-width: 700px;
-  margin: 0px 15px 0px 45px;
+  min-width: 36.458333333333336vw;
+  margin: 0vw 0.78125vw 0vw 2.34375vw;
   padding: 0;
 }
 
 .main-nav__item {
-  padding-right: 35px;
+  padding-right: 1.822916666666667vw;
 }
 
 .main-nav__link {
@@ -44,32 +44,34 @@ header {
 }
 
 .main-nav__link--active {
-  border-top: 4px solid #EF7F04;
-  padding-top: 36px;
+  border-top: 0.208333333333333vw solid #EF7F04;
+  padding-top: 1.875vw;
 }
 
 
 .main-nav__link:focus {
-  border-top: 4px solid #EF7F04;
-  padding-top: 17px;
+  border-top: 0.208333333333333vw solid #EF7F04;
+  padding-top: 0.885416666666667vw;
   color: #EF7F04;
 }
 
 .btn--application {
-  background: url(/img/svg/svg_icon_8.svg) no-repeat 11px 8px;
-  width: 169px;
-  height: 40px;
-  margin-right: 14px;
-  padding: 12px 19px 13px 47px;
+  width: 8.802083333333334vw;
+  height: 2.083333333333333vw;
+  margin-right: 0.729166666666667vw;
+  padding: 0.625vw 0.989583333333333vw 0.677083333333333vw 2.447916666666667vw;
+  background: url(/img/svg/svg_icon_8.svg) no-repeat 0.572916666666667vw 0.416666666666667vw;
+  background-size: 1.041666666666667vw 0.9375vw;
 
 }
 
 .btn--order {
-  background: url(/img/svg/svg_icon_9.svg) no-repeat 11px 8px;
-  width: 172px;
-  height: 40px;
-  padding: 12px 23px 13px 47px;
-  padding-left: 47px;
+  width: 8.958333333333334vw;
+  height: 2.083333333333333vw;
+  padding: 0.625vw 1.197916666666667vw 0.677083333333333vw 2.447916666666667vw;
+  padding-left: 2.447916666666667vw;
+  background: url(/img/svg/svg_icon_9.svg) no-repeat 0.572916666666667vw 0.416666666666667vw;
+  background-size: 1.041666666666667vw 0.9375vw;
 }
 
 // Стили кнопок main-nav^

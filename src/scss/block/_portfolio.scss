@@ -1,21 +1,23 @@
 .portfolio {
   background-color: #FFFFFF;
-  border-radius: 3px;
+  border-radius: 0.15625vw;
 }
 
 .portfolio__title {
-  margin: 87px 0px 48px 531px;
-  padding-top: 48px;
+  margin: 4.53125vw 0vw 2.5vw 27.65625vw;
+  padding-top: 2.5vw;
 }
 
 .portfolio__image--wrapper {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  gap: 44px;
-  padding: 0px 0px 67px 101px;
+  gap: 2.291666666666667vw;
+  padding: 0vw 0vw 3.489583333333333vw 5.260416666666667vw;
 }
 
 .portfolio__image {
-  border-radius: 3px;
+  width: 11.197916666666666vw;
+  height: 11.197916666666666vw;
+  border-radius: 0.15625vw;
 }
